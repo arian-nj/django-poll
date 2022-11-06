@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 
 
-{% block content %}
 {% if latest_question_list %}
 {% for question in latest_question_list %}
 <ul>
@@ -9,4 +8,3 @@
 </ul>
 {% endfor %}
 {% endif %}
-{% endblock content %}
